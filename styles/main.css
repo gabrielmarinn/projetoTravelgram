@@ -1,0 +1,19 @@
+main {
+    /* Adicionando display flex para as fotos ficarem uma ao lado da outra */
+    display: flex;
+    /* Adicionando flex-wrap para controlar os elementos permanecendo em uma linha ou quebrando em varias linhas quando o espaço for insuficiente */
+    flex-wrap: wrap;
+    /* Adicionando espaçamento entre as imagens */
+    gap: 24px;
+    /* Adicionando espaçamento interno no eixo Y (verical) */
+    padding-block: 24px;
+}
+
+main img {
+    /* Adicionando largura nas imagens */
+    width: 286px;
+    /* Adicionando altura nas imagens */
+    height: 286px;
+    /* Controlando o redimensionamento das imagens */
+    object-fit: cover;
+}

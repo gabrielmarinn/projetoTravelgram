@@ -1,0 +1,16 @@
+footer {
+    /* Adicionando display ao footer */
+    display: flex;
+    /* Adicionando espaçamento interno no eixo Y (vertical) */
+    padding-block: 24px;
+    
+}
+
+footer span {
+    /* Alinhando o span ao centro com margin */
+    margin: auto;
+    /* Adicionando fonte */
+    font: var(--paragraph-md);
+    /* Adicionando cor */
+    color: var(--text-color-secondary);
+}
