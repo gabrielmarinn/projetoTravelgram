@@ -26,3 +26,41 @@
     --paragraph-md: 400 14px/125% "Poppins", sans-serif;
     --paragraph-sm: 400 12px/125% "Poppins", sans-serif;
 }
+
+body {
+    /* Definindo font para o body */
+    font: var(--text);
+    /* Definindo a cor de texto do body */
+    color: var(--text-color-secondary);
+    /* Definindo a cor de fundo do body */
+    background-color: var(--background-color);
+}
+
+a {
+    /* Retirando a decoração automatica */
+    text-decoration: none;
+    /* Herdando cor do elemento pai (body) */
+    color: inherit;
+}
+
+/* Modificando o comportamento de link ao passar o mouse em cima com a pseudo class :hover  */
+a:hover {
+    /* Definindo cor ao passar o mouse em cima */
+    color: var(--brand-color);
+    /* Definindo decoração de underline ao passar o mouse em cima */
+    text-decoration: underline;
+}
+
+.container {
+    /* Adicionando espaçamento no eixo X (horizontal) caso coloque só um valor ele aplicará so de um lado */
+    padding-inline: 32px;
+    /* Adicionando largura maxima. Para isso olhando o valor total da caixa + espaçamentos */
+    max-width: 1280px;
+    /* Adicionando margin-inline para que seja de forma automática que a caixa container permaneça ao centro */
+    margin-inline: auto;
+}
+
+.bg__surface__color {
+    /* Adicionando cor ao fundo da caixa que engloba o nav */
+    background-color: var(--surface-color);
+}

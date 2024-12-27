@@ -1,0 +1,33 @@
+nav {
+    /* Colocando elementos um ao lado do outro */
+    display: flex;
+    /* Coloando espaçamento entre as duas caixas dentro de nav */
+    justify-content: space-between;
+    /* Alinhando as caixas pelo eixo X (horizontal) */
+    align-items: center;
+    /* Retirando qualquer espaço extra que tenha na linha da caixa */
+    line-height: 0;
+    /* Coloando espaçamento no eixe Y (vertical) da caixa */
+    padding-block: 20px;
+}
+
+nav ul {
+    /* Retirando pontos laterais que vem por padrão em ul */
+    list-style: none;
+    /* Lateralizando os itens da ul */
+    display: flex;
+    /* Adicionando espaço entre os elementos da ul */
+    gap: 24px;
+    /* Alinhando os itens da ul pelo eixe X (horizontal) */
+    align-items: center;
+    /* Colocando espaçamento no inicio e no final dos elementos da ul */
+    padding-block: 8px;
+}
+
+/* Alterando o tamanho da imagem de perfil com o comando li:last-child pois dentro da ul a primeira li tambem possui uma imagem e com esse seletor de pseudo class alteramos os valores somente da ultima que sera a foto de perfil */
+nav ul li:last-child img {
+    /* Largura */
+    width: 40px;
+    /* Altura */
+    height: 40px;
+}
