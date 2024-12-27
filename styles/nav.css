@@ -18,7 +18,7 @@ nav ul {
     display: flex;
     /* Adicionando espaço entre os elementos da ul */
     gap: 24px;
-    /* Alinhando os itens da ul pelo eixe X (horizontal) */
+    /* Alinhando os itens da ul pelo eixo X (horizontal) */
     align-items: center;
     /* Colocando espaçamento no inicio e no final dos elementos da ul */
     padding-block: 8px;
