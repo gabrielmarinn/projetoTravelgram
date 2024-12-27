@@ -7,7 +7,7 @@ nav {
     align-items: center;
     /* Retirando qualquer espaço extra que tenha na linha da caixa */
     line-height: 0;
-    /* Coloando espaçamento no eixe Y (vertical) da caixa */
+    /* Coloando espaçamento no eixo Y (vertical) da caixa */
     padding-block: 20px;
 }
 

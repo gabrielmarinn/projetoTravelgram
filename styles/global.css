@@ -23,8 +23,8 @@
 
     /* Fonts */
     --heading1: 700 32px/125% "Poppins", sans-serif;
-    --paragraph-md: 400 14px/125% "Poppins", sans-serif;
-    --paragraph-sm: 400 12px/125% "Poppins", sans-serif;
+    --paragraph-md: 400 14px/170% "Poppins", sans-serif;
+    --paragraph-sm: 400 12px/170% "Poppins", sans-serif;
 }
 
 body {

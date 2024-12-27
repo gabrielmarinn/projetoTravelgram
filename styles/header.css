@@ -1,0 +1,66 @@
+header {
+    /* Coloando espaçamento no eixo Y (vertical) da caixa */
+    padding-block: 32px;
+}
+
+/* Estilizando o .container que esta dentro do header */
+header .container {
+    /* Alinhando os elementos do container um ao lado do outro */
+    display: flex;
+    /* Ajustando espaçamento entre as caixas dentro de container */
+    justify-content: space-between;
+    /* Adicionando alinhamento dos elementos no eixo Y (vertical) */
+    align-items: center;
+}
+
+#profile {
+    /* Alinhando os elementos um ao lado do outro com display flex */
+    display: flex;
+    /* Adicionando espaçamento entre os elementos */
+    gap: 32px;
+}
+
+/* Adicionando uma largura maxima ao primeira div filho de #profile */
+#profile > div {
+    max-width: 384px;
+}
+
+/* Estilizando o h1 filho de #profile */
+#profile h1 {
+    /* Adicionando font */
+    font: var(--heading1);
+    /* Adicionando cor */
+    color: var(--text-color-primary);
+    /* Adicionando espaçamento embaixo do elemento com margim-bottom */
+    margin-bottom: 8px;
+}
+
+/* Estilizando o p filho de #profile */
+#profile p {
+    /* Adicionando font */
+    font: var(--paragraph-md);
+}
+
+/* Estilizando a ul que esta dentro de #info */
+#info {
+    /* Retirando pontos laterais que vem por padrão em ul */
+    list-style: none;
+    /* Alinhando os elementos um lado do outro */
+    display: flex;
+    /* Colocando a direção do flex para colunas para os elementos ficarem um abaixo do outro */
+    flex-direction: column;
+    /* Adicionando espaçamentos entre os elementos */
+    gap: 16px;
+    /* Adicionando largura a caixa #info */
+    width: 280px;
+}
+
+/* Estilizando li que esta dentro de #info */
+#info li {
+    /* Alinhando os elementos um lado do outro */
+    display: flex;
+    /* Alinhando os elementos pelo eixo X (horizontal) */
+    align-items: center;
+    /* Adicionando espaçamento entre eles */
+    gap: 8px;
+}
