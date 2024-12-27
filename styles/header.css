@@ -1,6 +1,8 @@
 header {
     /* Coloando espaçamento no eixo Y (vertical) da caixa */
     padding-block: 32px;
+    /* Adicionando font */
+    font: var(--paragraph-md);
 }
 
 /* Estilizando o .container que esta dentro do header */
@@ -33,12 +35,6 @@ header .container {
     color: var(--text-color-primary);
     /* Adicionando espaçamento embaixo do elemento com margim-bottom */
     margin-bottom: 8px;
-}
-
-/* Estilizando o p filho de #profile */
-#profile p {
-    /* Adicionando font */
-    font: var(--paragraph-md);
 }
 
 /* Estilizando a ul que esta dentro de #info */
